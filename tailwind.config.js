@@ -1,3 +1,7 @@
+require('tailwindcss-interaction-variants')
+
+const defaultConfig = require('tailwindcss/defaultConfig')
+
 module.exports = {
   theme: {
     extend: {
@@ -6,5 +10,11 @@ module.exports = {
         inherit: 'inherit'
       }
     }
-  }
+  },
+  variants: {
+    backgroundColor: [...defaultConfig.variants.backgroundColor, 'hocus', 'group-hocus']
+  },
+  plugins: [
+    require('tailwindcss-interaction-variants')(),
+  ]
 }
