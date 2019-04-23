@@ -4,6 +4,8 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+Vue.component('page-title', require('@/components/PageTitle').default)
+
 new Vue({
   router,
   render: h => h(App)

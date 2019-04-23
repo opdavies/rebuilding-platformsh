@@ -40,7 +40,7 @@
     </div>
 
     <div class="max-w-6xl mx-auto px-4">
-      <h1 class="font-bold text-2xl text-gray-800">All Projects</h1>
+      <page-title>All Projects</page-title>
     </div>
 
     <router-view/>
