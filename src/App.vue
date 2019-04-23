@@ -31,7 +31,7 @@
         </div>
 
         <div class="px-4">
-          <a href="#0" class="text-white bg-blue-700 focus:bg-blue-800 hover:bg-blue-800 px-4 py-2 rounded text-sm inline-flex flex-row-reverse items-center">
+          <a href="#0" class="text-white bg-blue-700 hocus:bg-blue-800 px-4 py-2 rounded text-sm inline-flex flex-row-reverse items-center">
             Add project
             <svg class="h-3 w-4" xmlns="http://www.w3.org/2000/svg"><path d="M6 6v4H4V6H0V4h4V0h2v4h4v2z" fill="#fff" fill-rule="evenodd"/></svg>
           </a>
