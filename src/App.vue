@@ -21,7 +21,7 @@
       </div>
     </header>
 
-    <div class="max-w-6xl mx-auto px-4 bg-charade py-3 px-5 -mt-8">
+    <div class="max-w-6xl mx-auto px-4 bg-charade py-3 px-5 -mt-8 mb-4 shadow-lg">
       <div class="flex justify-between items-center -mx-4">
         <div class="px-4 flex-1">
           <form action="" class="search-form flex flex-row-reverse items-center">
