@@ -8,8 +8,4 @@
   </div>
 </template>
 
-<style>
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-</style>
+<style src="./css/app.css"></style>
