@@ -14,7 +14,7 @@ module.exports = {
   },
   variants: {
     backgroundColor: [...defaultConfig.variants.backgroundColor, 'hocus', 'group-hocus'],
-    textDecoration: [...defaultConfig.variants.textDecoration, 'hocus', 'group-hocus']
+    textDecoration: [...defaultConfig.variants.textDecoration, 'group-hover', 'hocus', 'group-hocus']
   },
   plugins: [
     require('tailwindcss-interaction-variants')(),
