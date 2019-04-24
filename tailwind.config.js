@@ -7,12 +7,14 @@ module.exports = {
     extend: {
       colors: {
         charade: '#2a293c',
+        'gun-powder': '#414054',
         inherit: 'inherit'
       }
     }
   },
   variants: {
-    backgroundColor: [...defaultConfig.variants.backgroundColor, 'hocus', 'group-hocus']
+    backgroundColor: [...defaultConfig.variants.backgroundColor, 'hocus', 'group-hocus'],
+    textDecoration: [...defaultConfig.variants.textDecoration, 'hocus', 'group-hocus']
   },
   plugins: [
     require('tailwindcss-interaction-variants')(),

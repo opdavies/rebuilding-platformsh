@@ -1,5 +1,14 @@
 <template>
   <div id="app">
+    <section class="bg-gun-powder p-3 text-center text-white text-sm font-semibold">
+      <p>
+        A clone of <a class="underline hocus:no-underline" href="https://platform.sh">Platform.sh</a>’s new hosting dashboard.<br class="md:hidden">
+        Built with <a class="underline hocus:no-underline" href="https://vuejs.org">Vue.js</a>
+        and <a class="underline hocus:no-underline" href="https://tailwindcss.com">Tailwind CSS</a>
+        by <a class="underline hocus:no-underline" href="https://www.oliverdavies.uk">Oliver Davies</a>.
+      </p>
+    </section>
+
     <header class="bg-gray-900 text-white pt-4 pb-12">
       <div class="max-w-6xl mx-auto px-4">
         <div class="flex justify-between items-center -mx-4">
