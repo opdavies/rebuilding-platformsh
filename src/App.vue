@@ -48,8 +48,26 @@
       </div>
     </div>
 
-    <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-6xl mx-auto p-6">
       <page-title>All Projects</page-title>
+
+      <div class="flex flex-wrap mt-4 -mx-4 -mb-8">
+        <article class="w-full sm:w-1/2 md:w-1/3 px-4 mb-8 " v-for="n in 9">
+          <div class="bg-gray-100 shadow-lg rounded overflow-hidden">
+            <div class="p-6">
+              <h2 class="font-bold text-gray-800">Drupal Bristol</h2>
+
+              <p class="text-gray-600">accounts-partners</p>
+
+              <img src="/download.jpeg" alt="" class="shadow-2xl rounded mt-4">
+            </div>
+
+            <div class="bg-white py-5 px-8 -mt-24 relative">
+              Europe (West 1)
+            </div>
+          </div>
+        </article>
+      </div>
     </div>
 
     <router-view/>
