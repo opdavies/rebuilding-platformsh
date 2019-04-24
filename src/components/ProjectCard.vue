@@ -1,6 +1,6 @@
 <template>
   <article class="w-full sm:w-1/2 md:w-1/3 px-4 mb-8">
-    <a href="#" class="group">
+    <a href="#" class="group block">
       <span class="block bg-gray-100 shadow-lg rounded overflow-hidden">
         <span class="block p-6">
           <h2 class="font-bold text-gray-800 group-hover:underline">Drupal Bristol</h2>
