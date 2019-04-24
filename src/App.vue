@@ -52,7 +52,7 @@
       <page-title>All Projects</page-title>
 
       <div class="flex flex-wrap mt-4 -mx-4 -mb-8">
-        <project-card v-for="n in 9"></project-card>
+        <project-card v-for="n in 9" :key="n"></project-card>
       </div>
     </div>
 
