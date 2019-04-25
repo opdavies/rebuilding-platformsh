@@ -39,11 +39,36 @@
       </div>
     </div>
 
-    <div class="max-w-6xl mx-auto p-6">
-      <page-title>All Projects</page-title>
+    <div class="max-w-6xl mx-auto p-6 xl:px-0">
+      <page-title class="mb-6">All Projects</page-title>
 
-      <div class="flex flex-wrap mt-4 -mx-4 -mb-8">
+      <div v-if="display == 'grid'" class="flex flex-wrap mt-4 -mx-4 -mb-8">
         <project-card v-for="n in 9" :key="n"></project-card>
+      </div>
+
+      <div v-if="display == 'list'" class="bg-white shadow-md pt-6 pb-6">
+        <table class="w-full">
+          <thead>
+            <tr class="border-b border-gray-300">
+              <th class="font-semibold text-left text-sm pb-3 px-6 w-1/2">Project name</th>
+              <th class="font-semibold text-left text-sm pb-3 px-6">Owner</th>
+              <th class="font-semibold text-left text-sm pb-3 px-6 w-1/4">Region</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="px-6 py-4">
+                <a href="#0" class="font-semibold text-sm hover:underline">Drupal Bristol</a>
+              </td>
+              <td class="px-6 py-4">
+                <a href="#0" class="font-semibold text-sm hover:underline">accounts-partners</a>
+              </td>
+              <td class="px-6 py-4">
+                <a href="#0" class="font-semibold text-sm hover:underline">EU (West 1)</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
@@ -54,8 +79,16 @@ import ProjectCard from '@/components/ProjectCard'
 
 export default {
   name: 'projects',
+
   components: {
     ProjectCard
+  },
+
+  data () {
+    return {
+      display: 'grid'
+      // display: 'list'
+    }
   }
 }
 </script>
