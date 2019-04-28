@@ -8,7 +8,7 @@
       <div class="flex justify-between items-baseline">
         <page-title class="mb-6">All Projects</page-title>
 
-        <project-view-switcher @changed="projectViewSwitched"></project-view-switcher>
+        <project-view-switcher @changed="projectViewSwitched" :active-mode="displayMode"></project-view-switcher>
       </div>
 
       <div v-if="displayMode == 'grid'" class="flex flex-wrap mt-4 -mx-4 -mb-8">
