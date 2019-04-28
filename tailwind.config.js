@@ -1,5 +1,3 @@
-require('tailwindcss-interaction-variants')
-
 const defaultConfig = require('tailwindcss/defaultConfig')
 
 module.exports = {
@@ -17,6 +15,7 @@ module.exports = {
     textDecoration: [...defaultConfig.variants.textDecoration, 'group-hover', 'hocus', 'group-hocus']
   },
   plugins: [
+    require('tailwindcss-spaced-items')({ values: defaultConfig.theme.spacing }),
     require('tailwindcss-interaction-variants')(),
   ]
 }
