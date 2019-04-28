@@ -2,6 +2,7 @@
 
 @tailwind components;
 
+@import './components/links.css';
 @import './components/search-form.css';
 
 @tailwind utilities;
