@@ -26,13 +26,17 @@
     </div>
 
     <div class="max-w-6xl mx-auto p-6 xl:px-0">
-      <page-title class="mb-6">All Projects</page-title>
+      <div class="flex justify-between items-baseline">
+        <page-title class="mb-6">All Projects</page-title>
 
-      <div v-if="display == 'grid'" class="flex flex-wrap mt-4 -mx-4 -mb-8">
+        <project-view-switcher @changed="projectViewSwitched"></project-view-switcher>
+      </div>
+
+      <div v-if="displayMode == 'grid'" class="flex flex-wrap mt-4 -mx-4 -mb-8">
         <project-card v-for="n in 9" :key="n"></project-card>
       </div>
 
-      <div v-if="display == 'list'" class="bg-white shadow-md pt-6 pb-6">
+      <div v-if="displayMode == 'list'" class="bg-white shadow-md pt-6 pb-6 mt-4">
         <table class="w-full">
           <thead>
             <tr class="border-b border-gray-300">
@@ -63,19 +67,26 @@
 <script>
 import ProjectCard from '@/components/ProjectCard'
 import ProjectSearch from '@/components/ProjectSearch'
+import ProjectViewSwitcher from '@/components/ProjectViewSwitcher'
 
 export default {
   name: 'projects',
 
   components: {
     ProjectCard,
-    ProjectSearch
+    ProjectSearch,
+    ProjectViewSwitcher
   },
 
   data () {
     return {
-      display: 'grid'
-      // display: 'list'
+      displayMode: 'grid'
+    }
+  },
+
+  methods: {
+    projectViewSwitched (mode) {
+      this.displayMode = mode
     }
   }
 }
