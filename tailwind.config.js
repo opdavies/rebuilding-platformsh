@@ -7,6 +7,12 @@ module.exports = {
         charade: '#2a293c',
         'gun-powder': '#414054',
         inherit: 'inherit'
+      },
+      fontFamily: {
+        sans: [
+          'Open Sans',
+          ...defaultConfig.theme.fontFamily.sans
+        ]
       }
     }
   },
