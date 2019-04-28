@@ -2,10 +2,6 @@
 
 @tailwind components;
 
-.search-form {
-  > input:focus + svg {
-    @apply opacity-100
-  }
-}
+@import './components/search-form.css';
 
 @tailwind utilities;
