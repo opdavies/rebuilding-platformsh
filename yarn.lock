@@ -9018,10 +9018,10 @@ tailwindcss-interaction-variants@^2.0.0-beta.1:
   dependencies:
     lodash "^4.17.11"
 
-tailwindcss@^1.0.0-beta.5:
-  version "1.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.0.0-beta.5.tgz#0dd211b826ec1d26d3c0f33ba9aec036ddecf544"
-  integrity sha512-NJAmboNZzBrruzf7CH738dFN5fGuSJa95a/SawmyyWufkchOt1UiUplH7So5QkoGKyikC2aZOMZ6esVYSNAzXw==
+tailwindcss@^1.0.0-beta.8:
+  version "1.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-1.0.0-beta.8.tgz#62c04d4bb342933b45164735b0334119651cd733"
+  integrity sha512-rHS9yx2KzQPnfE++in2FcZ9yPt1KwdqENvMbmJzgWwidD4riNdTtGDKSk/3g7A8I2D7hMFvk6l6H3B52vOpqwQ==
   dependencies:
     autoprefixer "^9.4.5"
     bytes "^3.0.0"
