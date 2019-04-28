@@ -27,13 +27,13 @@
           <tbody>
             <tr>
               <td class="px-6 py-4">
-                <a href="#0" class="font-semibold text-sm hover:underline">Drupal Bristol</a>
+                <router-link :to="{ name: 'project', params: { id: 1 }}" class="font-semibold text-sm hover:underline">Drupal Bristol</router-link>
               </td>
               <td class="px-6 py-4">
                 <a href="#0" class="font-semibold text-sm hover:underline">accounts-partners</a>
               </td>
               <td class="px-6 py-4">
-                <a href="#0" class="font-semibold text-sm hover:underline">EU (West 1)</a>
+                <a href="#0" class="font-semibold text-sm hover:underline">Europe (West 1)</a>
               </td>
             </tr>
           </tbody>
