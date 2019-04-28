@@ -1,3 +1,7 @@
 <template>
-  <div>Project</div>
+  <div>
+    <banner></banner>
+    Project
+  </div>
 </template>
+

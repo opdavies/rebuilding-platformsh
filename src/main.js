@@ -5,6 +5,7 @@ import router from './router'
 Vue.config.productionTip = false
 
 Vue.component('alert-message', require('@/components/AlertMessage').default)
+Vue.component('banner', require('@/components/Banner').default)
 Vue.component('page-title', require('@/components/PageTitle').default)
 
 new Vue({
