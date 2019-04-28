@@ -15,7 +15,7 @@ export default new Router({
       component: Projects
     },
     {
-      path: '/project/{id}',
+      path: '/project/:id',
       name: 'project',
       component: Project
     }
