@@ -1,7 +1,9 @@
 <template>
   <div>
     <banner>
-      <project-breadcrumb slot="banner-left"></project-breadcrumb>
+      <template v-slot:banner-left>
+        <project-breadcrumb/>
+      </template>
     </banner>
     Project
   </div>

@@ -1,7 +1,9 @@
 <template>
   <div>
     <banner>
-      <project-search slot="sub-banner"></project-search>
+      <template v-slot:sub-banner>
+        <project-search/>
+      </template>
     </banner>
 
     <div class="max-w-6xl mx-auto p-6 xl:px-0">
