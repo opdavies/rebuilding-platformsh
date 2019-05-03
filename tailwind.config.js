@@ -23,6 +23,7 @@ module.exports = {
   plugins: [
     require('tailwindcss-spaced-items')({ values: defaultConfig.theme.spacing }),
     require('tailwindcss-interaction-variants')(),
+    require('tailwindcss-transforms')(),
     require('tailwindcss-visuallyhidden')(),
   ]
 }
