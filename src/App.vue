@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="min-h-screen antialiased font-sans bg-gray-200">
     <alert-message>
       <p>
         A clone of <a href="https://platform.sh">Platform.sh</a>’s new hosting dashboard.<br class="md:hidden">
