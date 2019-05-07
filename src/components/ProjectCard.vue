@@ -7,7 +7,7 @@
 
           <p class="text-gray-600">accounts-partners</p>
 
-          <img src="/download.jpeg" alt="" class="shadow-2xl rounded mt-4">
+          <img src="../assets/img/download.jpg" alt="" class="shadow-2xl rounded mt-4">
         </span>
 
         <span class="block bg-white py-5 px-8 -mt-24 relative">
