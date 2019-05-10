@@ -1,4 +1,5 @@
-const defaultConfig = require('tailwindcss/defaultConfig')
+const { variants } = require('tailwindcss/defaultConfig')
+const { fontFamily, spacing } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   theme: {
@@ -11,17 +12,17 @@ module.exports = {
       fontFamily: {
         sans: [
           'Open Sans',
-          ...defaultConfig.theme.fontFamily.sans
+          ...fontFamily.sans
         ]
       }
     }
   },
   variants: {
-    backgroundColor: [...defaultConfig.variants.backgroundColor, 'hocus', 'group-hocus'],
-    textDecoration: [...defaultConfig.variants.textDecoration, 'group-hover', 'hocus', 'group-hocus']
+    backgroundColor: [...variants.backgroundColor, 'hocus', 'group-hocus'],
+    textDecoration: [...variants.textDecoration, 'group-hover', 'hocus', 'group-hocus']
   },
   plugins: [
-    require('tailwindcss-spaced-items')({ values: defaultConfig.theme.spacing }),
+    require('tailwindcss-spaced-items')({ values: spacing }),
     require('tailwindcss-interaction-variants')(),
     require('tailwindcss-transforms')(),
     require('tailwindcss-visuallyhidden')(),
