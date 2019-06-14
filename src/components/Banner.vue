@@ -11,9 +11,9 @@
 
           <slot name="banner-left"></slot>
 
-          <div class="w-1/4 px-4">
+          <div class="px-4">
             <div class="flex justify-end">
-              <button type="button" class="inline-flex py-1 px-2 rounded font-semibold hover:bg-gray-700">
+              <button type="button" class="w-full inline-flex py-1 px-2 rounded font-semibold hover:bg-gray-700">
                 Oliver Davies
                 <svg class="ml-2 w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.90002 9.8999C6.90002 9.5999 7.00002 9.3999 7.20002 9.1999C7.60002 8.7999 8.20002 8.7999 8.60002 9.1999L12.1 12.6999L15.6 9.1999C16 8.7999 16.6 8.7999 17 9.1999C17.4 9.5999 17.4 10.1999 17 10.5999L12.8 14.7999C12.4 15.1999 11.8 15.1999 11.4 14.7999L7.20002 10.5999C7.00002 10.3999 6.90002 10.1999 6.90002 9.8999Z" fill="#ffffff"></path></svg>
               </button>
