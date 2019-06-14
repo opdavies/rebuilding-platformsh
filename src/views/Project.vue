@@ -2,7 +2,7 @@
   <div>
     <banner>
       <template v-slot:banner-left>
-        <project-breadcrumb :app-name="appName"/>
+        <project-breadcrumb :title="title"/>
       </template>
     </banner>
     Project
@@ -14,7 +14,7 @@ import ProjectBreadcrumb from '@/components/ProjectBreadcrumb'
 
 export default {
   props: {
-    appName: {
+    title: {
       type: String,
       required: true
     }

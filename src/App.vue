@@ -9,7 +9,7 @@
       </p>
     </alert-message>
 
-    <router-view :app-name="name"></router-view>
+    <router-view :title="title"></router-view>
   </div>
 </template>
 
@@ -19,7 +19,7 @@
 export default {
   data () {
     return {
-      name: 'Rebuilding Platform.sh'
+      title: 'Rebuilding Platform.sh'
     }
   }
 }
