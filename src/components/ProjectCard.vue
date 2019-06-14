@@ -1,5 +1,5 @@
 <template>
-  <article class="w-full px-4 mb-8 sm:w-1/2 md:w-1/3">
+  <article>
     <router-link :to="{ name: 'project', params: { id: 1 }}" class="group block hover:no-underline">
       <span class="block bg-gray-100 shadow-lg rounded overflow-hidden">
         <span class="block p-6">

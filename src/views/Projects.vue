@@ -6,15 +6,19 @@
       </template>
     </banner>
 
-    <div class="max-w-6xl mx-auto p-6 xl:px-0">
+    <main class="max-w-6xl mx-auto p-6 xl:px-0">
       <div class="flex justify-between items-baseline">
-        <page-title class="mb-6">All Projects</page-title>
+        <page-title>All Projects</page-title>
 
         <project-view-switcher @changed="projectViewSwitched" :mode="displayMode"></project-view-switcher>
       </div>
 
-      <div v-if="displayMode == 'grid'" class="flex flex-wrap mt-4 -mb-8 -mx-4">
-        <project-card v-for="n in 9" :key="n"></project-card>
+      <div class="mt-6">
+        <div v-if="displayMode == 'grid'" class="flex flex-wrap -mt-8 mb-4 -mx-4">
+          <div class="w-full px-4 mt-8 sm:w-1/2 md:w-1/3" v-for="n in 9" :key="n">
+            <project-card></project-card>
+          </div>
+        </div>
       </div>
 
       <div v-if="displayMode == 'list'" class="pt-6 pb-6 mt-4 bg-white shadow-md">
@@ -41,7 +45,7 @@
           </tbody>
         </table>
       </div>
-    </div>
+    </main>
   </div>
 </template>
 
