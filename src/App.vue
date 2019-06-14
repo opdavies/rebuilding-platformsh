@@ -9,8 +9,18 @@
       </p>
     </alert-message>
 
-    <router-view/>
+    <router-view :app-name="name"></router-view>
   </div>
 </template>
 
 <style src="./assets/css/tailwind.css"></style>
+
+<script>
+export default {
+  data () {
+    return {
+      name: 'Rebuilding Platform.sh'
+    }
+  }
+}
+</script>
