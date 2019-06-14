@@ -13,4 +13,4 @@
   </div>
 </template>
 
-<style src="./css/app.css"></style>
+<style src="./assets/css/tailwind.css"></style>
