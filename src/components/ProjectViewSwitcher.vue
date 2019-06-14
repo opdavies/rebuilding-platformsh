@@ -27,9 +27,9 @@ export default {
   button {
     @apply text-gray-700;
 
-    &:hover {
-    @apply bg-white rounded shadow
-  }
+      &:hover {
+      @apply bg-white rounded shadow
+    }
   }
 
   .active {
