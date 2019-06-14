@@ -13,17 +13,17 @@
         <project-view-switcher @changed="projectViewSwitched" :active-mode="displayMode"></project-view-switcher>
       </div>
 
-      <div v-if="displayMode == 'grid'" class="flex flex-wrap mt-4 -mx-4 -mb-8">
+      <div v-if="displayMode == 'grid'" class="flex flex-wrap mt-4 -mb-8 -mx-4">
         <project-card v-for="n in 9" :key="n"></project-card>
       </div>
 
-      <div v-if="displayMode == 'list'" class="bg-white shadow-md pt-6 pb-6 mt-4">
+      <div v-if="displayMode == 'list'" class="pt-6 pb-6 mt-4 bg-white shadow-md">
         <table class="w-full">
           <thead>
             <tr class="border-b border-gray-300">
-              <th class="font-semibold text-left text-sm pb-3 px-6 w-1/2">Project name</th>
-              <th class="font-semibold text-left text-sm pb-3 px-6">Owner</th>
-              <th class="font-semibold text-left text-sm pb-3 px-6 w-1/4">Region</th>
+              <th class="w-1/2 pb-3 px-6 font-semibold text-left text-sm">Project name</th>
+              <th class="pb-3 px-6 font-semibold text-left text-sm">Owner</th>
+              <th class="w-1/4 pb-3 px-6 font-semibold text-left text-sm">Region</th>
             </tr>
           </thead>
           <tbody>
