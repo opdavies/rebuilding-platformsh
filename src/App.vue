@@ -2,7 +2,7 @@
   <div class="min-h-screen antialiased font-sans bg-gray-200">
     <alert-message>
       <p>
-        A clone of <a href="https://platform.sh">Platform.sh</a>’s new hosting dashboard.<br class="md:hidden">
+        A clone of <a href="https://platform.sh">Platform.sh</a>’s new hosting dashboard.<br class="hidden sm:inline">
         Built with <a href="https://vuejs.org">Vue.js</a>
         and <a href="https://tailwindcss.com">Tailwind CSS</a>
         by <a href="https://www.oliverdavies.uk">Oliver Davies</a>.
