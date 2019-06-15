@@ -7,10 +7,10 @@
 
           <p class="text-gray-600">accounts-partners</p>
 
-          <img src="../assets/img/download.jpg" alt="" class="shadow-2xl rounded mt-4">
+          <img src="../assets/img/screenshot-default.jpg" alt="" class="mt-4 rounded shadow-2xl">
         </span>
 
-        <span class="block py-5 px-8 -mt-24 relative bg-white">
+        <span class="block py-5 px-8 -mt-10 relative bg-white">
           <p>Europe (West 1)</p>
         </span>
       </span>
