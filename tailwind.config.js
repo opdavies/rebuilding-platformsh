@@ -22,9 +22,9 @@ module.exports = {
     textDecoration: [...variants.textDecoration, 'group-hover', 'hocus', 'group-hocus']
   },
   plugins: [
-    require('tailwindcss-spaced-items')({ values: spacing }),
     require('tailwindcss-interaction-variants')(),
+    require('tailwindcss-spaced-items')({ values: spacing }),
     require('tailwindcss-transforms')(),
-    require('tailwindcss-visuallyhidden')(),
+    require('tailwindcss-visuallyhidden')()
   ]
 }
