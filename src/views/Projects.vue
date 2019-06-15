@@ -57,6 +57,13 @@ import ProjectViewSwitcher from '@/components/ProjectViewSwitcher'
 export default {
   name: 'projects',
 
+  props: {
+    projects: {
+      type: Object,
+      required: true
+    }
+  },
+
   components: {
     ProjectCard,
     ProjectSearch,
@@ -65,31 +72,7 @@ export default {
 
   data () {
     return {
-      displayMode: 'grid',
-
-      projects: [
-        {
-          id: 1,
-          name: 'Drupal Bristol',
-          owner: 'accounts-partners',
-          region: 'Europe (West 1)',
-          image: 'default.jpg'
-        },
-        {
-          id: 2,
-          name: 'oliverdavies.uk',
-          owner: 'Oliver Davies',
-          region: 'Europe (West 1)',
-          image: 'oliver-davies.png'
-        },
-        {
-          id: 3,
-          name: 'PHP South Wales',
-          owner: 'PHP South Wales organisers',
-          region: 'Europe (West 1)',
-          image: 'php-south-wales.png'
-        }
-      ]
+      displayMode: 'grid'
     }
   },
 

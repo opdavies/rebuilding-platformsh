@@ -2,10 +2,11 @@
   <div>
     <banner>
       <template v-slot:banner-left>
-        <project-breadcrumb :title="title"/>
+        <project-breadcrumb :project="project"/>
       </template>
     </banner>
-    Project
+
+    <page-title v-text="project.name"/>
   </div>
 </template>
 
@@ -13,15 +14,14 @@
 import ProjectBreadcrumb from '@/components/ProjectBreadcrumb'
 
 export default {
-  props: {
-    title: {
-      type: String,
-      required: true
-    }
-  },
-
   components: {
     ProjectBreadcrumb
+  },
+
+  computed: {
+    project () {
+      return this.$attrs.projects[this.$attrs.id - 1]
+    }
   }
 }
 </script>
