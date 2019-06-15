@@ -3,6 +3,9 @@ const { fontFamily, spacing } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   theme: {
+    rotate: {
+      '-90': '-90deg'
+    },
     extend: {
       colors: {
         charade: '#2a293c',
