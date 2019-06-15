@@ -15,8 +15,8 @@
 
       <div class="mt-6">
         <div v-if="displayMode == 'grid'" class="flex flex-wrap -mt-8 mb-4 -mx-4">
-          <div class="w-full px-4 mt-8 sm:w-1/2 lg:w-1/3" v-for="n in 9" :key="n">
-            <project-card></project-card>
+          <div class="w-full px-4 mt-8 sm:w-1/2 lg:w-1/3" v-for="project in projects" :key="project.id">
+            <project-card :project="project"/>
           </div>
         </div>
       </div>
@@ -31,15 +31,15 @@
             </tr>
           </thead>
           <tbody>
-            <tr>
+            <tr v-for="project in projects" :key="project.id">
               <td class="px-6 py-4">
-                <router-link :to="{ name: 'project', params: { id: 1 }}" class="font-semibold text-sm hover:underline">Drupal Bristol</router-link>
+                <router-link :to="{ name: 'project', params: { id: project.id }}" class="font-semibold text-sm hover:underline">{{ project.name }}</router-link>
               </td>
               <td class="px-6 py-4">
-                <a href="#0" class="font-semibold text-sm hover:underline">accounts-partners</a>
+                <a href="#0" class="font-semibold text-sm hover:underline">{{ project.owner }}</a>
               </td>
               <td class="px-6 py-4">
-                <a href="#0" class="font-semibold text-sm hover:underline">Europe (West 1)</a>
+                <a href="#0" class="font-semibold text-sm hover:underline">{{ project.region }}</a>
               </td>
             </tr>
           </tbody>
@@ -65,7 +65,31 @@ export default {
 
   data () {
     return {
-      displayMode: 'grid'
+      displayMode: 'grid',
+
+      projects: [
+        {
+          id: 1,
+          name: 'Drupal Bristol',
+          owner: 'accounts-partners',
+          region: 'Europe (West 1)',
+          image: 'default.jpg'
+        },
+        {
+          id: 2,
+          name: 'oliverdavies.uk',
+          owner: 'Oliver Davies',
+          region: 'Europe (West 1)',
+          image: 'oliver-davies.png'
+        },
+        {
+          id: 3,
+          name: 'PHP South Wales',
+          owner: 'PHP South Wales organisers',
+          region: 'Europe (West 1)',
+          image: 'php-south-wales.png'
+        }
+      ]
     }
   },
 
