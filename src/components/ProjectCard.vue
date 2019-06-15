@@ -7,7 +7,7 @@
 
           <p class="text-gray-600">{{ project.owner }}</p>
 
-          <img :src="projectImage" alt="" class="mt-4 rounded shadow-2xl">
+          <img :src="projectImage" alt="" class="w-full mt-4 rounded shadow-2xl">
         </span>
 
         <span class="block py-5 px-8 -mt-10 relative bg-white">
