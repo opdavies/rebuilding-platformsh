@@ -15,7 +15,7 @@
 
       <div class="mt-6">
         <div v-if="displayMode == 'grid'" class="flex flex-wrap -mt-8 mb-4 -mx-4">
-          <div class="w-full px-4 mt-8 sm:w-1/2 md:w-1/3" v-for="n in 9" :key="n">
+          <div class="w-full px-4 mt-8 sm:w-1/2 lg:w-1/3" v-for="n in 9" :key="n">
             <project-card></project-card>
           </div>
         </div>
