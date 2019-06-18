@@ -1,7 +1,7 @@
 <template>
   <div>
     <banner>
-      <template v-slot:banner-left>
+      <template #banner-left>
         <project-breadcrumb :project="project"/>
       </template>
     </banner>

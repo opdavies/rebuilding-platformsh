@@ -1,7 +1,7 @@
 <template>
   <div>
     <banner>
-      <template v-slot:sub-banner>
+      <template #sub-banner>
         <project-search/>
       </template>
     </banner>
