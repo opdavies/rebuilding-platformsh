@@ -5,7 +5,10 @@
         <span class="block p-6">
           <h2 class="font-bold text-gray-800 group-hover:underline" v-text="project.name"/>
           <p class="text-gray-600" v-text="project.owner"/>
-          <img :src="projectImage" :alt="`Screenshot of ${project.name}`" class="w-full mt-4 rounded shadow-2xl">
+          <img v-bind="{
+            alt: `Screenshot of ${project.name}`,
+            src: projectImage
+          }" class="w-full mt-4 rounded shadow-2xl">
         </span>
 
         <span class="block py-5 px-8 -mt-10 relative bg-white">
