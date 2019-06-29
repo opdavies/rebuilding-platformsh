@@ -8,7 +8,7 @@
           <img v-bind="{
             alt: `Screenshot of ${project.name}`,
             src: projectImage
-          }" class="w-full mt-4 rounded shadow-2xl">
+          }" class="w-full mt-4 rounded shadow-2xl" aria-hidden>
         </span>
 
         <span class="block py-5 px-8 -mt-10 relative bg-white">
