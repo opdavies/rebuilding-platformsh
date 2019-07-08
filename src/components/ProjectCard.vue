@@ -11,7 +11,7 @@
           }" class="w-full mt-4 rounded shadow-2xl" aria-hidden>
         </span>
 
-        <span class="block py-5 px-8 -mt-10 relative bg-white">
+        <span class="-mt-10 py-5 px-8 block relative bg-white">
           <p v-text="project.region"/>
         </span>
       </span>
