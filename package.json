@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "postcss": "^7.0.17",
+    "sugarss": "^2.0.0",
     "tailwindcss-interaction-variants": "^2.0.0-beta.1",
     "tailwindcss-spaced-items": "^0.1.0",
     "tailwindcss-transforms": "^2.0.0-beta.1",

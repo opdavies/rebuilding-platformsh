@@ -5,12 +5,10 @@
 </template>
 
 <style type="postcss" scoped>
-a {
-  @apply underline;
+a
+  @apply underline
 
   &:hover,
-  &:focus {
+  &:focus
     @apply no-underline
-  }
-}
 </style>
