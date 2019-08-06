@@ -9037,10 +9037,10 @@ tailwindcss-spaced-items@^0.1.0:
   resolved "https://registry.yarnpkg.com/tailwindcss-spaced-items/-/tailwindcss-spaced-items-0.1.0.tgz#e7f381e5c780a034bcdbc38a6a2cfb31f828a020"
   integrity sha512-YiT1h89fp13r6I+EBM8wS1RWfsTwzHSi4BAnHoTXXQK1GQ53DUCPeFNmiksYSdx2aQLMdp/DTPvErqBVfTALiQ==
 
-tailwindcss-transforms@^2.0.0-beta.1:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/tailwindcss-transforms/-/tailwindcss-transforms-2.1.0.tgz#10a8bf652ffa4f623822626479c36c4ee3a3cb9d"
-  integrity sha512-bRE5ysWreXGOBwKPC3o3P0NEIIIZhrkV5OLGR35c9TgAl64yz9HAcv/XQsiiBGJhfrD6Cd/RdwMeoxesqBxClA==
+tailwindcss-transforms@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/tailwindcss-transforms/-/tailwindcss-transforms-2.2.0.tgz#3e0e594a2b34a056714d5fe539e2ace3226edf28"
+  integrity sha512-0HPzE1QgGi94lNOgsIKA0AWaQern+JR0XNJkRmpyjFybpSLtQ5HkupF/caAmUW+pTt4cguDzd5gw09uw1oaG3A==
   dependencies:
     lodash "^4.17.11"
 
