@@ -24,10 +24,10 @@ export default {
       projects: [
         {
           id: 1,
-          name: 'Drupal Bristol',
-          owner: 'accounts-partners',
+          name: 'Inviqa',
+          owner: 'inviqa',
           region: 'Europe (West 1)',
-          image: 'default.jpg'
+          image: 'inviqa.jpeg'
         },
         {
           id: 2,
