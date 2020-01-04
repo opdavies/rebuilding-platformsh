@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="bg-gray-900 text-white pt-4 pb-12">
-      <div class="max-w-6xl mx-auto px-4">
+      <div class="container mx-auto px-4">
         <div class="flex-1 flex justify-between items-center -mx-4">
           <div class="w-1/7 px-4">
             <router-link :to="{ name: 'projects' }">
@@ -20,7 +20,7 @@
         </div>
       </div>
     </header>
-    <div class="max-w-6xl mx-auto px-4 py-3 -mt-8 mb-4 bg-charade shadow-lg">
+    <div class="container mx-auto px-4 py-3 -mt-8 mb-4 bg-charade shadow-lg">
       <slot name="sub-banner"></slot>
     </div>
   </div>
