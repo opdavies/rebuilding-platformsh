@@ -6,7 +6,7 @@
       </template>
     </banner>
 
-    <main class="container mx-auto p-6 xl:px-0">
+    <main class="container mx-auto p-6">
       <div class="flex justify-between items-baseline">
         <page-title>All Projects</page-title>
 
