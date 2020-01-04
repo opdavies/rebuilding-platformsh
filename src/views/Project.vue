@@ -4,6 +4,10 @@
       <template #banner-left>
         <project-breadcrumb :project="project"/>
       </template>
+
+      <template #sub-banner>
+        <span class="text-white">Project and environment dropdowns</span>
+      </template>
     </banner>
 
     <page-title v-text="project.name"/>
