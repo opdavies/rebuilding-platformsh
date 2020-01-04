@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Inviqa",
+    "owner": "inviqa",
+    "region": "Europe (West 1)",
+    "image": "inviqa.jpeg"
+  },
+  {
+    "id": "2",
+    "name": "oliverdavies.uk",
+    "owner": "Oliver Davies",
+    "region": "Europe (West 1)",
+    "image": "oliver-davies.png"
+  },
+  {
+    "id": "3",
+    "name": "PHP South Wales",
+    "owner": "PHP South Wales organisers",
+    "region": "Europe (West 1)",
+    "image": "php-south-wales.png"
+  }
+]

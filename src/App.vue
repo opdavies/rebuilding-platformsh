@@ -16,34 +16,13 @@
 <style src="./assets/css/tailwind.css"></style>
 
 <script>
+import projects from './data/projects.json'
+
 export default {
   data () {
     return {
       title: 'Rebuilding Platform.sh',
-
-      projects: [
-        {
-          id: 1,
-          name: 'Inviqa',
-          owner: 'inviqa',
-          region: 'Europe (West 1)',
-          image: 'inviqa.jpeg'
-        },
-        {
-          id: 2,
-          name: 'oliverdavies.uk',
-          owner: 'Oliver Davies',
-          region: 'Europe (West 1)',
-          image: 'oliver-davies.png'
-        },
-        {
-          id: 3,
-          name: 'PHP South Wales',
-          owner: 'PHP South Wales organisers',
-          region: 'Europe (West 1)',
-          image: 'php-south-wales.png'
-        }
-      ]
+      projects
     }
   }
 }
