@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         charade: '#2a293c',
         'gun-powder': '#414054',
-        inherit: 'inherit'
+        inherit: 'inherit',
+        periwinkle: '#d8e2f0'
       },
       fontFamily: {
         sans: [
