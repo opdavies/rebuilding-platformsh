@@ -14,8 +14,18 @@
       </div>
 
       <div class="mt-6">
-        <div v-if="displayMode == 'grid'" class="flex flex-wrap -mt-8 mb-4 -mx-4">
-          <div class="w-full px-4 mt-8 sm:w-1/2 lg:w-1/3" v-for="project in projects" :key="project.id">
+        <div
+          v-if="displayMode == 'grid'"
+          class="
+            grid gap-8
+            md:grid-cols-2
+            xl:grid-cols-3
+          "
+        >
+          <div
+            v-for="project in projects"
+            :key="project.id"
+          >
             <project-card :project="project"/>
           </div>
         </div>
