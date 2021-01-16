@@ -1,4 +1,4 @@
-# rebuilding-platformsh
+# Rebuilding Platform.sh with Vue.js, TypeScript and Tailwind CSS
 
 ## Project setup
 ```
